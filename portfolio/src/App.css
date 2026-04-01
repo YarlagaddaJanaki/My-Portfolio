@@ -523,23 +523,32 @@ h2 {
   font-size: 0.8rem;
   color: rgba(148, 163, 184, 0.6);
 }
-
 @media (max-width: 700px) {
+  .hero {
+    padding: 60px 0 20px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
   .navbar {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .hero-content {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-left {
     text-align: center;
   }
 
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .app-shell {
+    padding: 0 10px;
+  }
+
   .profile-ring {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
   }
 }
+
