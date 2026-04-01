@@ -1,3 +1,4 @@
+import profile from "../src/profile.jpg";
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -15,11 +16,7 @@ function Hero() {
         </div>
         <div className="hero-right">
           <div className="profile-ring">
-            <img
-              src="/src/profile.png"
-              alt="Janaki profile"
-              className="profile-image"
-            />
+            <img src={profile} alt="Janaki profile" className="profile-image" />
           </div>
         </div>
       </div>
