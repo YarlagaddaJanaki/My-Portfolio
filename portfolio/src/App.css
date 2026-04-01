@@ -114,13 +114,16 @@ a {
     0 0 30px rgba(139, 92, 246, 0.6),
     0 0 60px rgba(34, 211, 238, 0.28);
 }
+.profile-ring {
+  overflow: hidden;  /* this keeps image inside circle */
+}
 
 .profile-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center 22%;
-  transform: scale(1.12);
+  transform: scale(1);
   border-radius: 999px;
   border: 4px solid #0b1120;
 }
