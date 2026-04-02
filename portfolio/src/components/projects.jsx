@@ -8,9 +8,9 @@ function Projects() {
     },
     {
       title: "Task Scheduler App",
-      stack: "ReactJS, JavaScript, CSS, LocalStorage",
-      desc: "Responsive task manager with LocalStorage persistence for reliable day-to-day planning.",
-      github: "https://github.com/YarlagaddaJanaki/Task-Scheduler",
+      stack: "ReactJS, JavaScript, CSS, Node.js, Express.js",
+      desc: "Responsive full-stack task scheduler with task management, reminders, and data persistence for better daily planning.",
+      github: "https://github.com/YarlagaddaJanaki/TaskScheduler",
     },
     {
       title: "Fraud Detection System",
