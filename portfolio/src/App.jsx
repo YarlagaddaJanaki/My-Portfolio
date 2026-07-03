@@ -5,6 +5,7 @@ import Projects from "./components/projects";
 import DsaProfiles from "./components/DsaProfiles";
 import Leadership from "./components/Leadership";
 import Contact from "./components/Contact";
+import Certifications from "./components/Certifications";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <Certifications/>
       <DsaProfiles />
       <Leadership />
       <Contact />

@@ -6,39 +6,30 @@ import {
   SiPython,
   SiReact,
 } from "react-icons/si";
-import { FaDatabase, FaJava } from "react-icons/fa";
+
+import { FaDatabase, FaJava, FaChartLine } from "react-icons/fa";
 import { FaBrain } from "react-icons/fa6";
 
 function Skills() {
   const skills = [
-    // Programming Languages
     { name: "Java", icon: FaJava },
     { name: "Python", icon: SiPython },
     { name: "JavaScript", icon: SiJavascript },
 
-    // Frontend
     { name: "HTML", icon: SiHtml5 },
     { name: "CSS", icon: SiCss },
     { name: "React", icon: SiReact },
 
-    // Database
     { name: "SQL", icon: FaDatabase },
+    { name: "Git", icon: SiGit },
 
-    // Data Science
-    { name: "NumPy", icon: FaDatabase },
-    { name: "Pandas", icon: FaDatabase },
-    { name: "Matplotlib", icon: FaDatabase },
+    { name: "NumPy", icon: FaChartLine },
+    { name: "Pandas", icon: FaChartLine },
+    { name: "Matplotlib", icon: FaChartLine },
     { name: "Scikit-Learn", icon: FaBrain },
 
-    // AI & Machine Learning
     { name: "Machine Learning", icon: FaBrain },
     { name: "Generative AI", icon: FaBrain },
-    { name: "LLMs", icon: FaBrain },
-    { name: "RAG", icon: FaBrain },
-    { name: "Prompt Engineering", icon: FaBrain },
-
-    // Tools
-    { name: "Git", icon: SiGit },
   ];
 
   return (
